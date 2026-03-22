@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -34,10 +33,4 @@ func removeDuplicate(word string) string {
 		}
 	}
 	return string(result)
-}
-
-func main() {
-	fmt.Println(removeDuplicate("Innocent"))
-	fmt.Println(removeDuplicate("Golang"))
-	fmt.Println(removeDuplicate("Programming"))
 }
