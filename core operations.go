@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -35,8 +34,4 @@ func cleaner(s string) string {
 		word[i] = strings.ToUpper(string(word[i][0])) + strings.ToLower(word[i][1:])
 	}
 	return strings.Join(word, " | ")
-}
-
-func main() {
-	fmt.Println(cleaner("  innocent,is,learning,golang,in,lagos  "))
 }
