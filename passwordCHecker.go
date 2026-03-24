@@ -66,9 +66,10 @@ func checkPassword(passWord string) {
 	}
 }
 
-func main() {
+/*func main() {
 	checkPassword("Innocent")
 	checkPassword("Hello1!y")
 	checkPassword("Hello1!")
 	checkPassword("onlylowercase")
 }
+*/
