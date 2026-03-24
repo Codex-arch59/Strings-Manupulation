@@ -59,7 +59,7 @@ func checkPassword(passWord string) {
 
 	result := hasLength && hasUpper && hasLower && hasDIgit && hasSpecial && hasNoSpaces
 
-	if result == true {
+	if result {
 		fmt.Printf("%-12s : %s\n", "Verdict", "Strong")
 	} else {
 		fmt.Printf("%-12s : %s\n", "Verdict", "Weak ❌")
